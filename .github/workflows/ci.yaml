@@ -46,7 +46,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - run: docker pull ghcr.io/naft-a/gh-ci-test:ci-${{ github.sha }}
-      - run: docker run ghcr.io/naft-a/gh-ci-test:ci-${{ github.sha }} server_test.rb
+      - run: docker run ghcr.io/naft-a/gh-ci-test:ci-${{ github.sha }} ruby server_test.rb
 
   release-please:
     name: Release Please
