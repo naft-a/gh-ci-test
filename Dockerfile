@@ -12,3 +12,10 @@ COPY --chown=hello Gemfile Gemfile.lock ./
 RUN bundle install -j 4
 
 COPY --chown=hello . .
+
+ARG VERSION=unspecified
+RUN echo $VERSION > VERSION
+
+CMD ["bundle", "exec", "puma", "-C", "puma.rb"]
+
+FROM base as CI
