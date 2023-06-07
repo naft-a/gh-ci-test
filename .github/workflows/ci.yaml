@@ -64,8 +64,8 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release-please
         with:
-          release-type: node
-          package-name: release-please-action
+          release-type: ruby
+          package-name: gh-ci-test
 
   publish-image:
     name: Publish Image
