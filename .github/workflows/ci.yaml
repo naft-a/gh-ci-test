@@ -52,6 +52,7 @@ jobs:
     name: Release Please
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    needs: [build, test]
     permissions:
       contents: write
       pull-requests: write
@@ -70,7 +71,7 @@ jobs:
     name: Publish Image
     runs-on: ubuntu-latest
     needs: [build, test, release-please]
-    if: ${{ needs.release-please.outputs.release_created }}
+    if: ${{ needs.release-please.outputs.releases_created }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
