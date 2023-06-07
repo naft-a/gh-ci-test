@@ -12,6 +12,6 @@ class TestApp < Test::Unit::TestCase
 
   def test_root
     get "/"
-    assert !last_response.ok?
+    assert last_response.ok?
   end
 end
