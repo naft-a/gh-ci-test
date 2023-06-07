@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/naft-a/gh-ci-test/compare/v2.1.0...v2.2.0) (2023-06-07)
+
+
+### Features
+
+* config ru ([0643e58](https://github.com/naft-a/gh-ci-test/commit/0643e58da368ca65b07ce6ce1037e18fce65d83f))
+
 ## [2.1.0](https://github.com/naft-a/gh-ci-test/compare/v2.0.0...v2.1.0) (2023-06-07)
 
 
