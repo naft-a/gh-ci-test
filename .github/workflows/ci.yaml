@@ -61,6 +61,7 @@ jobs:
       version: ${{ steps.release-please.outputs.version }} # e.g. 1.0.0
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release-please
         with:
           release-type: node
           package-name: release-please-action
