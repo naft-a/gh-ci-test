@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/naft-a/gh-ci-test/compare/v1.4.0...v2.0.0) (2023-06-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* add this
+
+### Features
+
+* add this ([424d63f](https://github.com/naft-a/gh-ci-test/commit/424d63f542a54001e85b75421dd3516be210707d))
+
 ## [1.4.0](https://github.com/naft-a/gh-ci-test/compare/v1.3.0...v1.4.0) (2023-06-07)
 
 
