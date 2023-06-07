@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/naft-a/gh-ci-test/compare/v1.3.0...v1.4.0) (2023-06-07)
+
+
+### Features
+
+* **greeter:** One more change ([#7](https://github.com/naft-a/gh-ci-test/issues/7)) ([754d522](https://github.com/naft-a/gh-ci-test/commit/754d5221f1145e3dbd2a21e86b74b90565a80234))
+
 ## [1.3.0](https://github.com/naft-a/gh-ci-test/compare/v1.2.0...v1.3.0) (2023-06-07)
 
 
