@@ -105,5 +105,6 @@ jobs:
           package-name: gh-ci-test
           package-type: container
           token: ${{ secrets.GITHUB_TOKEN }}
-          min-versions-to-keep: 10
-          delete-only-untagged-versions: 'true'
+          min-versions-to-keep: 3
+          ignore-versions: '^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)|stable$'
+
