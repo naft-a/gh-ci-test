@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# :)
 GREETER = "Hello CI?!"
 
 run do |env|
